@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Budgets Management" title="Budgets Management" src="https://fv2-3.failiem.lv/thumb_show.php?i=67kbykqq3&view" width="100px" />
+  <img alt="Budgets Management" title="Budgets Management" src="https://fv2-3.failiem.lv/thumb_show.php?i=k4msj66ac&view" width="100px" />
 </h1>
 
 <h1 align="center">
