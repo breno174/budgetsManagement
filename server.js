@@ -9,7 +9,9 @@ const router = jsonServer.router("db.json");
 app.db = router.db;
 
 const rules = auth.rewriter({
-  users: 600,
+  users: 644,
+  budgets: 660,
+  expenses: 660,
 });
 
 app.use(cors());
@@ -18,6 +20,4 @@ app.use(auth);
 app.use(router);
 app.listen(port);
 
-console.log("Server is running on port:", port);
-
-/* A senha do Kenzinho é 123456 */
+console.log("O servidor está rodando na porta:", port);
