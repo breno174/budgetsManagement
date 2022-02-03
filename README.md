@@ -174,20 +174,20 @@ São uma listagem de todos os grupos de despesas criadas pelo user logado.
 
 ```json
 {
-		"name": "Janeiro2021",
-		"max_value": 1500,
-		"categories": ["food", "entertainment", "transport", "home", "health", "others"],
-    "month" : "01",
-		"userId": 1,
-		"id": 1
+  "name": "Janeiro2021",
+  "max_value": 1500,
+  "categories": ["food", "entertainment", "transport", "home", "health", "others"],
+  "month" : "01",
+  "userId": 1,
+  "id": 1
 },
 {
-		"name": "Fevereiro2021",
-		"max_value": 1300,
-		"categories": ["food", "entertainment", "transport", "home", "health", "others"],
-    "month" : "02",
-		"userId": 1,
-		"id": 2
+  "name": "Fevereiro2021",
+  "max_value": 1300,
+  "categories": ["food", "entertainment", "transport", "home", "health", "others"],
+  "month" : "02",
+  "userId": 1,
+  "id": 2
 }
 ```
 
@@ -218,16 +218,16 @@ São uma listagem de todos os grupos de despesas criadas pelo user logado.
 {
   "name": "Fevereiro2021",
   "max_value": 1300,
-	"categories": ["food", "entertainment", "transport", "home", "health", "others"],
+  "categories": ["food", "entertainment", "transport", "home", "health", "others"],
   "month" : "02",
-	"userId": 4,
-	"id": 2
+  "userId": 4,
+  "id": 2
 }
 "user": {
-    "email": "marcos@teste.com",
-    "name": "Marcos",
-    "id": 4
-  }
+  "email": "marcos@teste.com",
+  "name": "Marcos",
+  "id": 4
+}
 ```
 
 <h3 align ='center'> Atualizar budget ( Grupo de Despesas ) </h3>
