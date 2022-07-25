@@ -1,12 +1,214 @@
 {
   "users": [
     {
-      "email": "kenzinho@mail.com",
+      "email": "kenzinho@gmail.com",
       "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
       "name": "Kenzinho",
       "id": 1
     }
   ],
-  "budgets": [],
-  "expenses": []
+  "budgets": [
+    {
+      "name": "Janeiro 2022",
+      "max_value": 1500,
+      "categories": [
+        "Food",
+        "Entertainment",
+        "Transport",
+        "Home",
+        "Health",
+        "Others"
+      ],
+      "month": "01",
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "name": "Fevereiro 2022",
+      "max_value": 1300,
+      "categories": [
+        "Food",
+        "Entertainment",
+        "Transport",
+        "Home",
+        "Health",
+        "Others"
+      ],
+      "month": "02",
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "name": "Março 2022",
+      "max_value": 2100,
+      "categories": [
+        "Food",
+        "Entertainment",
+        "Transport",
+        "Home",
+        "Health",
+        "Others"
+      ],
+      "month": "03",
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "name": "Abril 2022",
+      "max_value": 2300,
+      "categories": [
+        "Food",
+        "Entertainment",
+        "Transport",
+        "Home",
+        "Health",
+        "Others"
+      ],
+      "month": "04",
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "name": "Maio 2022",
+      "max_value": 1800,
+      "categories": [
+        "Food",
+        "Entertainment",
+        "Transport",
+        "Home",
+        "Health",
+        "Others"
+      ],
+      "month": "05",
+      "userId": 1,
+      "id": 5
+    },
+    {
+      "name": "Junho 2022",
+      "max_value": 1100,
+      "categories": [
+        "Food",
+        "Entertainment",
+        "Transport",
+        "Home",
+        "Health",
+        "Others"
+      ],
+      "month": "06",
+      "userId": 1,
+      "id": 6
+    },
+    {
+      "name": "Julho 2022",
+      "max_value": 2100,
+      "categories": [
+        "Food",
+        "Entertainment",
+        "Transport",
+        "Home",
+        "Health",
+        "Others"
+      ],
+      "month": "07",
+      "userId": 1,
+      "id": 7
+    },
+    {
+      "name": "Agosto 2022",
+      "max_value": 1700,
+      "categories": [
+        "Food",
+        "Entertainment",
+        "Transport",
+        "Home",
+        "Health",
+        "Others"
+      ],
+      "month": "08",
+      "userId": 1,
+      "id": 8
+    }
+  ],
+  "expenses": [
+    {
+      "name": "Conta de água",
+      "description": "Fatura relativa ao mês de novembro",
+      "amount": 130.45,
+      "type": "Home",
+      "month": "02",
+      "userId": 1,
+      "budgetId": 2,
+      "id": 1
+    },
+    {
+      "name": "Cardiologista",
+      "description": "Consulta particular em 21-01-22",
+      "amount": 300,
+      "type": "Health",
+      "month": "01",
+      "userId": 1,
+      "budgetId": 1,
+      "id": 2
+    },
+    {
+      "name": "Conta de Luz",
+      "description": "Fatura referente a janeiro-2022",
+      "amount": 170.35,
+      "type": "Home",
+      "month": "01",
+      "userId": 1,
+      "budgetId": 1,
+      "id": 3
+    },
+    {
+      "name": "Aluguel",
+      "description": "Referência Dezembro-2021",
+      "amount": 750,
+      "type": "Home",
+      "month": "01",
+      "userId": 1,
+      "budgetId": 1,
+      "id": 4
+    },
+    {
+      "name": "Aluguel",
+      "description": "Referência Janeiro-2022",
+      "amount": 750,
+      "type": "Home",
+      "month": "01",
+      "userId": 1,
+      "budgetId": 2,
+      "id": 5
+    },
+    {
+      "name": "Conta de Luz",
+      "description": "Fatura referente a fevereiro-2022",
+      "amount": 120.7,
+      "type": "Home",
+      "month": "02",
+      "userId": 1,
+      "budgetId": 2,
+      "id": 6
+    },
+    {
+      "name": "Aluguel",
+      "description": "Referência Fevereiro-2022",
+      "amount": 750,
+      "type": "Home",
+      "month": "03",
+      "userId": 1,
+      "budgetId": 3,
+      "id": 7
+    },
+    {
+      "name": "Conta de Água",
+      "description": "Fatura referente a fevereiro-2022",
+      "amount": 200.58,
+      "type": "Home",
+      "month": "03",
+      "userId": 1,
+      "budgetId": 3,
+      "id": 8
+    }
+  ]
 }

@@ -174,18 +174,20 @@ São uma listagem de todos os grupos de despesas criadas pelo user logado.
 
 ```json
 {
-		"name": "Janeiro2021",
-		"max_value": 1500,
-		"categories": ["food", "entertainment", "transport", "home", "health", "others"],
-		"userId": 1,
-		"id": 1
+  "name": "Janeiro2021",
+  "max_value": 1500,
+  "categories": ["food", "entertainment", "transport", "home", "health", "others"],
+  "month" : "01",
+  "userId": 1,
+  "id": 1
 },
 {
-		"name": "Fevereiro2021",
-		"max_value": 1300,
-		"categories": ["food", "entertainment", "transport", "home", "health", "others"],
-		"userId": 1,
-		"id": 2
+  "name": "Fevereiro2021",
+  "max_value": 1300,
+  "categories": ["food", "entertainment", "transport", "home", "health", "others"],
+  "month" : "02",
+  "userId": 1,
+  "id": 2
 }
 ```
 
@@ -197,6 +199,7 @@ São uma listagem de todos os grupos de despesas criadas pelo user logado.
 {
   "name": "Fevereiro2021",
   "max_value": 1300,
+  "month": "02",
   "categories": [
     "food",
     "entertainment",
@@ -213,17 +216,18 @@ São uma listagem de todos os grupos de despesas criadas pelo user logado.
 
 ```json
 {
-    "name": "Fevereiro2021",
-    "max_value": 1300,
-	"categories": ["food", "entertainment", "transport", "home", "health", "others"],
-	"userId": 4,
-	"id": 2
+  "name": "Fevereiro2021",
+  "max_value": 1300,
+  "categories": ["food", "entertainment", "transport", "home", "health", "others"],
+  "month" : "02",
+  "userId": 4,
+  "id": 2
 }
 "user": {
-    "email": "marcos@teste.com",
-    "name": "Marcos",
-    "id": 4
-  }
+  "email": "marcos@teste.com",
+  "name": "Marcos",
+  "id": 4
+}
 ```
 
 <h3 align ='center'> Atualizar budget ( Grupo de Despesas ) </h3>
@@ -237,7 +241,8 @@ São uma listagem de todos os grupos de despesas criadas pelo user logado.
 {
   "name": "Março2021",
   "max_value": 1000,
-  "categories": ["food", "transport", "home", "others"]
+  "categories": ["food", "transport", "home", "others"],
+  "month": "02"
 }
 ```
 
@@ -265,6 +270,8 @@ São uma listagem de todos os grupos de despesas criadas pelo user logado.
     "description": "fatura relativa ao mês de novembro",
     "amount": 130.45,
     "type": "home",
+    "month": "02",
+    "userId": 1,
     "budgetId": 2,
     "id": 1
   },
@@ -273,6 +280,8 @@ São uma listagem de todos os grupos de despesas criadas pelo user logado.
     "description": "Consulta particular em janeiro 2022",
     "amount": 300,
     "type": "health",
+    "month": "01",
+    "userId": 1,
     "budgetId": 1,
     "id": 2
   }
@@ -289,12 +298,15 @@ São uma listagem de todos os grupos de despesas criadas pelo user logado.
   "description": "Consulta particular em janeiro 2022",
   "amount": 300,
   "type": "health",
+  "month": "02",
+  "userId": 1,
   "budgetId": 1
 }
 ```
 
 1. O campo - "type" deve receber uma das categorias definidas no grupo da despesa.
 2. O campo - "budgetId" deve receber respectivamente o id do grupo de despesa ao qual pertence.
+3. O campo - "userId" deve receber respectivamente o id do usuário ao qual a despesa pertence.
 
 <h3 align ='center'> Atualizar despesa</h3>
 
@@ -308,7 +320,8 @@ São uma listagem de todos os grupos de despesas criadas pelo user logado.
   "name": "Cardiologista",
   "description": "Consulta particular em fevereiro 2022",
   "amount": 250,
-  "type": "health"
+  "type": "health",
+  "month": "02"
 }
 ```
 
